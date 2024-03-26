@@ -28,3 +28,4 @@ def start_sniffing():
     scapy.sniff(prn=packet_callback, store=False)
 
 start_sniffing()
+
